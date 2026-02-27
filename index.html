@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique Robux</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #d10000;
+            color: white;
+            padding: 30px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            width: 260px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            width: 140px;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-size: 22px;
+            color: #d10000;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            display: inline-block;
+            background-color: #d10000;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .buy-btn:hover {
+            background-color: #a80000;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ddd;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Boutique Robux</h1>
+    <p>Paiement sécurisé via Stripe</p>
+</header>
+
+<section class="products">
+
+    <!-- 15€ -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Robux_2019_Logo_gold.svg" alt="5000 Robux">
+        <h2>5000 Robux</h2>
+        <p class="price">15 €</p>
+        <a class="buy-btn"
+           href="https://buy.stripe.com/test_7sY00d2Acd7c1cP7Ip83C03"
+           target="_blank">
+            Acheter
+        </a>
+    </div>
+
+    <!-- 40€ -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Robux_2019_Logo_gold.svg" alt="15000 Robux">
+        <h2>15000 Robux</h2>
+        <p class="price">40 €</p>
+        <a class="buy-btn"
+           href="https://buy.stripe.com/test_4gM28la2EaZ46x93s983C01"
+           target="_blank">
+            Acheter
+        </a>
+    </div>
+
+    <!-- 70€ -->
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Robux_2019_Logo_gold.svg" alt="35000 Robux">
+        <h2>35000 Robux</h2>
+        <p class="price">70 €</p>
+        <a class="buy-btn"
+           href="https://buy.stripe.com/test_bJeeV71w80kq1cPbYF83C02"
+           target="_blank">
+            Acheter
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Robux Shop - By Kyami ✞
+</footer>
+
+</body>
+</html>
